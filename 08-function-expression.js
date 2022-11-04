@@ -13,3 +13,9 @@
  * 5. Рузультат функции выведите в консоль
  *
  */
+
+function noName(name){
+    return `hi ${name}`
+}
+console.log(noName('Yoppik'))
+console.log(noName('Sempik'))
