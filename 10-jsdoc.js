@@ -15,8 +15,14 @@
  * 4. Вызовите функцию
  */
 
-/**"Возвращает разницу двух чисел"
+/**
+ * Возвращает разницу двух чисел
+ * @param {number} p1
+ * @param {number} p2
+ * @returns {number} Разнаца чисел
  */
-function numbers(2,56){
-
+const numbers =(p1 , p2) => {
+return p1 - p2
 }
+const result = numbers(10,2)
+console.log( result)

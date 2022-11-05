@@ -16,6 +16,7 @@ let object ={
     surname: 'Остапкивочкин' ,
     favoriteName:'Стёпка'
 }
-// let hi = "My name is" + name + '' +  surname + 'and my favorite number is' + favoriteName
-let hi = `My name is ${name} ${surname} and my favorite number is ${favoriteName}`
+// let hi = " My name is " + object.name + ' ' +  object.surname + ' and my favorite number is ' + object.favoriteName
+let hi = `My name is ${object.name} ${object.surname} and my favorite number is ${object.favoriteName}`
 console.log(hi)
+
