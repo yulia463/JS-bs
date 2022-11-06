@@ -8,3 +8,6 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+const greetings = 'Good Morning'
+const greetings1 = 'Good Evening'
+console.log(greetings1)

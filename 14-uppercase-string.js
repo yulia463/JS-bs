@@ -13,3 +13,16 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+// const string = 'This is string'
+//
+// console.log(string instanceof String)
+// console.log(typeof string)
+//
+// const bigString = string.toUpperCase()
+// console.log(bigString)
+ // ИЛИ
+
+const myString = new String('Yopik') // экзэмплярстроки
+
+console.log(myString instanceof String)
+console.log(typeof myString)
