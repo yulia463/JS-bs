@@ -10,3 +10,7 @@
  *
  * 4. Выведите в консоль изменнены массив
  */
+const array =[67 , 'string' , true ,null]
+console.log(array)
+array[1] = 12
+console.log(array)
