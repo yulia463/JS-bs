@@ -8,5 +8,4 @@
  * и выведите каждый элемент в консоль
  */
 const array = [56 , true , 'string']
-array.forEach( el=> console.log(el*2))
-console.log(array)
+array.forEach( el=> console.log(el))

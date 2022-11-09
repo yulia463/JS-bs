@@ -10,6 +10,9 @@
 let myVariable1 = 10
 let myVariable2 = '5'
 
+if(myVariable1 >= myVariable2){
+    console.log(true)
+}
 // Напишите код здесь
 
 myVariable1 = '20'
