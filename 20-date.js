@@ -5,3 +5,5 @@
  *
  * 2. Выведите значение в консоль
  */
+let date = new Date().getTime()
+console.log(date)
