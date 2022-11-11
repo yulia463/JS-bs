@@ -11,4 +11,4 @@ setTimeout(function myFn() {
     console.log('Привет из функции myFn')
 }, 2000)
 
-myFn()
+// myFn()
