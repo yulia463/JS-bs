@@ -14,3 +14,10 @@ const myObject = {
     key4: null,
     key10: NaN,
 }
+for(const key in myObject){
+    if(key === 'key1' || key === 'key3' ){
+        console.log(key ,  myObject[key])
+    }
+
+}
+

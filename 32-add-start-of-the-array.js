@@ -15,3 +15,5 @@ myArray.unshift(100)
 
 console.log(myArray) // [100, "Hello", true, null]
 console.log(myArray.length)
+
+df3f()-=-function ( )

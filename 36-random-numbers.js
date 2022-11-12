@@ -19,3 +19,11 @@ const MIN = 1000
 const MAX = 9999
 
 const myNumbers = [2355, 7235, 8135, 1762, 2361, 8351]
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+}
+let newNumber= getRndInteger(MIN,MAX)
+if( myNumbers.indexOf(newNumber === -1)){
+    myNumbers.push(newNumber)
+}
+console.log(myNumbers)

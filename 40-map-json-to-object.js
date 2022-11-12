@@ -10,9 +10,14 @@
  * 4. Выведите в консоль "commentsQuantity" последнего объекта
  */
 
-const postsJSON = [
+let postsJSON = [
     '{"postId":1355,"commentsQuantity":5}',
     '{"postId":5131,"commentsQuantity":13}',
     '{"postId":6134,"commentsQuantity":2}',
-    '{"postId":2351,"commentsQuantity":8}',
+    '{"postId":2351,"commentsQuantity":8}'
 ]
+// newObject = JSON.parse(postsJSON[0])
+postsJSON = postsJSON.map((element) => (JSON.parse(element)))
+console.log(postsJSON[1].postId)
+console.log(postsJSON[postsJSON.length -1].commentsQuantity)
+
