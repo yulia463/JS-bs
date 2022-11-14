@@ -7,6 +7,17 @@
  * равными категориям, и значениями,
  * равными сумме всех количеств в каждой категории
  */
+const quantitiesByCategories = (products) => {
+  const result = {}
+    products.forEach(el=>{
+      if(!result [el.category]){
+          result [el.category] = el.quantity
+      }  else{
+          result[el.category ] += el.quantity
+      }
+    })
+    return result
+}
 
 const inputProducts = [
     {

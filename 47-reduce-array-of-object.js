@@ -6,6 +6,10 @@
  * 2. Эта функция "popularPostsIds" должна возвращать массив идентификаторов постов сообщений,
  * у которых количество комментариев не меньше "minimalComentsQty"
  */
+const popularPostsIds = (posts,minimalComentsQty) => {
+  return posts.filter(el=> el.comments > minimalComentsQty).map(el=>el.postId)
+
+}
 
 const inputPosts = [
     {
