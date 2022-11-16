@@ -15,21 +15,20 @@
 
 const photosGallery = (title, dimensions, date) => {
     return {
-        title: title,
-        info: function() {
+        title,
+        info: function () {
             console.log(
-                "Фото "${title}" имеет разрешение ${date}`
-        );
+                ` "Фото " ${title} " имеет разрешение ${date}`
+            );
         },
-        dimensions: dimensions
+        dimensions,
         publishInfo: () => {
             console.log(
                 `Фото было опубликовано ${Math.floor(
                     (new Date().getTime() - date.getTime()) / 1000
                 )} секунды назад`
-            );
-        ,
-            date: date
+            )
+            date
         }
     }
 
@@ -53,3 +52,4 @@ const photosGallery = (title, dimensions, date) => {
 
     console.log(myDogPhoto[testDimension1]) // true
     console.log(myDogPhoto[testDimension2]) // undefined
+}
