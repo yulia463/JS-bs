@@ -7,7 +7,14 @@
  */
 
 const personInfo = (person) => {
-
+return {
+    name: person.name,
+    personAge: person.age,
+    origin: person.location.country,
+    homeCity: person.location.city,
+    friendsQty: 0,
+    createdAtYear: 1999
+}
 }
 
 const person = {

@@ -9,6 +9,34 @@
  *
  * 3. Исходный массив постов должен остаться без изменений
  */
+const processPosts = () => {
+    return testPosts.map(el => {
+        const newObject = {};
+
+        newObject.postId = el.postId + 1000
+        newObject.postAuthor = el.author
+        newObject.postCommentsQty = el.commentsQty || 0
+
+        return newObject
+
+    })
+}
+
+// const myUsers = [
+//     { name: 'shark', likes: 'ocean' },
+//     { name: 'turtle', likes: 'pond' },
+//     { name: 'otter', likes: 'fish biscuits' }
+// ]
+// const usersByLikes = myUsers.map(item => {
+//     const container = {};
+//
+//     container[item.name] = item.likes;
+//     container.age = item.name.length * 10;
+//
+//     return container;
+// })
+
+// console.log(usersByLikes);
 
 const testPosts = [
     {
