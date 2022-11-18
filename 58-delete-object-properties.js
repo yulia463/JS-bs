@@ -8,6 +8,9 @@
  * не будут доступны после операции деструктуризации.
  */
 
+
+
+
 let person = {
     _id: '5ad8cefcc0971792dacb3f1f',
     index: 4,
@@ -17,6 +20,9 @@ let person = {
     name: 'Samanta Larsen',
     cartId: 435,
 }
+delete person._id
+delete person.processed
+delete person.cart
 
 console.log(person)
 /*
