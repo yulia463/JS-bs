@@ -8,7 +8,14 @@
  *
  * 3. Также верните эту сумму как результат функции
  */
+const sumNumbers=(...rest)=>{
+let result =0
+    for(let i =0 ; i<rest.length; i++){
+        result += rest[i];
+    }
+    return result
 
+}
 sumNumbers(1, 3)
 // 4
 
@@ -17,3 +24,6 @@ sumNumbers(10, 20, 5)
 
 sumNumbers(2, 5, 80, 1, 10, 12)
 // 110
+console.log(sumNumbers(1,3))
+console.log(sumNumbers(10, 20, 5))
+console.log(sumNumbers(2, 5, 80, 1, 10, 12))

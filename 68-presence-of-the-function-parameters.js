@@ -7,6 +7,7 @@
  */
 
 function square(a) {
+    throw new Error('vghhcjghhj')
     console.log(a * a)
 }
 

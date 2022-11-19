@@ -14,6 +14,9 @@ const objectWithNumbers = {
 }
 
 // Создайте функцию здесь
+let mult = (x,y,z) =>{
+
+}
 
 const result = mult(objectWithNumbers)
 console.log(result)
