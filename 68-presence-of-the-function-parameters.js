@@ -7,7 +7,10 @@
  */
 
 function square(a) {
-    throw new Error('vghhcjghhj')
+  if( a === undefined){
+      throw new Error('Функция "square" не может быть вызвана без аргумента')
+  }
+
     console.log(a * a)
 }
 
