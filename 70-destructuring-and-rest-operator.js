@@ -7,10 +7,17 @@
  * Значения переменных должны быть такими как в выводах в консоли
  */
 
-const arr = [1, 2, 3, 4, 5, 6, 7]
 
-// Напишите код здесь
-мссмс
+// const fruits = ['apple', 'orange', 'banana', 'pineapple'];
+//
+// const [first, ...rest] = fruits;
+// console.log(first); // 'apple'
+// console.log(rest); // ['orange', 'banana', 'pineapple']
+
+
+const arr = [1, 2, 3, 4, 5, 6, 7]
+const [a,b,...c]=arr
+
 
 console.log(a)
 // 1
