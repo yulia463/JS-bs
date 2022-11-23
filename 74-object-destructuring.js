@@ -36,4 +36,5 @@ console.log(shortPerson(person1))
 // { n: "Mike", c: "Spain", a: 23, p: 100 }
 
 console.log(shortPerson(person2))
+
 // { n: "Alice", c: "Italy", a: 25, p: 0 }
