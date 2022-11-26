@@ -27,6 +27,13 @@ console.log(greeting1.greet('Emily'))
 
 /* ____________  */
 
+const createGreeting=()=>{
+    let greetingString= "Hey, this is";
+    function greet()={
+        greetingString
+    }
+}
+
 const greeting2 = createGreeting()
 
 console.log(greeting2.greet('Emily'))
